@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("bg.avif") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+.box {
+    width: 320px;
+    min-height: 320px;
+    margin: 80px auto;
+    padding: 30px 20px;
+    background: rgba(255, 214, 224, 0.92);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+input { padding: 8px; width: 90%; margin-bottom: 10px; }
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background: #ffe9a8;
+    color: #5a4a00;
+    border: none;
+    border-radius: 6px;
+}
+button:hover { background: #ffdf80; }
+.hasil { color: #0a7a5a; font-weight: bold; }
